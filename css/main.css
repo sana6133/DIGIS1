@@ -1,0 +1,179 @@
+@import url(./menu.css);
+@import url(./head.css);
+@import url(./swiper.css);
+@import url(./sabtnam.css);
+@import url(./foot.css);
+@font-face {
+    font-family: sas;
+    src: url(../font/AIranianSans.eot);
+    src: url(../font/AIranianSans.ttf);
+    src: url(../font/AIranianSans.woff);
+    src: url(../font/AIranianSans.woff2);
+
+}
+<!--notnow-->
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sas;
+}
+
+div.circlehead{
+    position: relative;
+}
+div.circlehead>div.header-circlemenu{
+    position: absolute;
+    margin: 10px;
+    margin-right: 80px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(12, 26, 18);
+    border-radius: 40px;
+    display: inline-block;
+    position: relative;
+
+}
+div.circle-menu-sec{
+    width: 60px;
+    height: 60px;
+    border-radius: 17px;
+    margin-right: 100px;
+    margin-top: 1%;
+    background-color:transparent ;
+    position: relative;  
+    display: inline-block;
+}
+div.circle-menu-sec>img{
+    width: 60px;
+    height: 60px;
+    border-radius: 17px;
+    margin-right: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+div.img{
+    width: 93%;
+    height: 140px;
+    margin: 3%;
+    border-radius: 20px;
+    background-color: rgb(250, 234, 213);
+    position: relative;
+}
+div.img>img{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+div.img>div.ic{
+    width: 75%;
+    height: 48%;
+    position: absolute;
+    top: 25%;
+    right: 40%;
+    display: inline-block;
+}
+div.img>div.ic>img{
+    height: 100%;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+div.ic>div.tkhf{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    border-radius: 13px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+
+}
+div.img>div.takhfif{
+    width: 10%;
+    height: 20%;
+    border-radius: 14px;
+    background-color: rgb(16, 204, 110);
+    color: whitesmoke;
+    padding: 6px;
+    position: absolute;
+    right: 26%;
+    top: 40%;
+}
+div.img>div.sad{
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: rgb(16, 204, 110);
+    padding: 1%;
+    position: absolute;
+    right: 89%;
+    top: 46px;
+    border-radius: 55px;
+}
+div.square-bg{
+    margin-right: 3.5%;
+    width:20% ;
+    height: 30vh;
+    background-color: black;
+    display: inline-block;
+    border-radius: 10%;
+    
+}
+div.square-bg>img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 9%;
+    
+}
+/* div.square-text{
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(241, 238, 234, 0.527);
+    margin-top: 2%;
+} */
+
+h1{
+    position: relative;
+    right: 37%;
+    display: inline-block;
+    margin:2%;
+}
+div.cirt{
+    text-align: center;
+}
+div.cir-lit{
+    width: 100px;
+    height: 100px;
+    margin-right:70px ;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    display: inline-block;
+
+} 
+div.cir-lit>img{
+    width: inherit;
+    height: inherit;
+}
+div.rectangle-vst{
+    width: 44%;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    border-radius:5% ;
+    margin: 1.6%;
+    
+}
+div.rectangle-vst>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+div.swiper3{
+    width: 93%;
+    height: 45vh;
+    background-color: aquamarine;  
+    margin-right: 3%;  
+}

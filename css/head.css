@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sas;
+}
+
+div.header{
+    width: 100%;
+    height:55px;
+    margin-top: 1.5px;
+}
+div.header>img{
+    width: inherit;
+    height: inherit;
+}
+
+div.header-search{
+   width: 100%;
+   height: 70px;
+   background-color: rgba(9, 40, 37, 0.515);
+   position: relative;
+   display: inline-block;
+}
+
+div.header-search>span{
+
+    position: absolute;
+    left: 10px;
+    top: 18px;
+    font-size: 20px;
+}
+div.header-search>form>input{
+    background-color: black;
+    width: 500px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    right: 150px ;
+    top: 14px;
+    border: 0px;
+    border-radius: 14px;
+   
+}
+div.header-search>img{
+    display: inline-block;
+    position: absolute;
+    bottom: 19px;
+    right: 8px;
+}

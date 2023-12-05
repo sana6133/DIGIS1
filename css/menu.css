@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sas;
+}
+div.realmenu{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(25, 7, 7);
+    
+}
+
+div.gozine>nav>ul>li{
+    display: inline-block;
+    margin: 10px;
+}
+div.gozine>nav>ul>li>a{
+    width: 5%;
+    height: inherit;
+    text-decoration: none;
+    color: rgb(196, 207, 207);
+    
+}
+div.line1{
+    width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.line2{ width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.line3{ width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.line4{ width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.line5{ width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.line6{ width: 100%;
+    height: 2px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+div.dastebandi{
+    height: 160px;
+}
+div.dastebandi>a{
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(234, 221, 221);
+    margin-right: 3px;    
+    
+}
+div.dastebandi>div.submenu{
+    display: none;
+    width: 70vw;
+    height: 500px;
+    position: absolute;
+    right: 10px;
+    top:180px ;
+    background-color: rgb(83, 10, 10);
+    z-index: 999999;
+}
+div.mobile{
+    width: 40vw;
+    height: 17px;
+    color: whitesmoke;
+    transform: scale(0,0);
+    position: absolute;
+    right: 15.16%;
+    top: 0%;
+}
+div.mobile>a{
+    color: gainsboro;
+    text-decoration: none;
+    margin: 10%;
+}
+div.submenu>ul{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(82, 75, 78);
+    list-style: none;
+}
+div.submenu>ul>li{
+    width: 100%;
+    height: 29px;
+
+}
+div.submenu>ul>li>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    color: whitesmoke;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 17px;
+    padding-right:8px;
+    transition: 300ms;
+
+}
+div.line{
+    width: 100%;
+    height: 3px;
+    transform: scale(0,0);
+    transition: 300ms;
+}
+
+
+div.submenu>ul>li:hover>a{
+     color: whitesmoke;
+     background-color: rgb(228, 23, 23);
+}
+div.dastebandi:hover>div.submenu{
+    display:block
+}
+div.submenu>ul>li:hover>div.mobile{
+    transform: scale(1,1);
+    background-color: chocolate;
+}
+div.dastebandi:hover>div.line{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line1{
+    transform: scale(1,1);
+    background-color:red;
+}
+div.gozine>nav>ul>li:hover>div.line2{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line3{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line4{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line5{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line6{
+    transform: scale(1,1);
+    background-color: red;
+}
+div.gozine>nav>ul>li:hover>div.line7{
+    transform: scale(1,1);
+    background-color: red;
+}

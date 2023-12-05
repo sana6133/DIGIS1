@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+div.gozine>a{
+    text-align: center;   
+    color: rgb(172, 204, 204);
+    height: inherit;
+    text-decoration: none;
+}
+hr{
+    color: rgba(0, 0, 0, 0.404);
+    width:100%;
+    height: 2px ;
+}

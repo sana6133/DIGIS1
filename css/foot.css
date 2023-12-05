@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sas;
+}
+div.club{
+    width: 90%;
+    height: 9.5vh;
+    background-color: rgb(29, 139, 139);
+    position: relative;
+    right: 4%;
+    margin-top: 0.75%;
+    border-radius: 10px;
+
+}
+div.club>div.clubimg>img{
+    margin-top: 2%;   
+    margin-right: 5px; 
+    width: 10%;
+    display: inline-block;
+}
+div.club>div.clubch{
+    height: 8vh;
+    background-color: aliceblue;
+    display: inline-block;
+    position: relative;
+    right: 40%;
+    bottom: 61px;
+    border-radius:4% ;
+}
+div.club>div.clubch>img{
+    width: 160px ;
+    height: 8vh;
+    margin-right: 95px;
+    align-items: center;
+    border-radius: 2px;
+}
+div.club>div.clubch>p{
+    font-size: 12px;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+}
+div.club>div.clubch>span{
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    font-size: 12px;
+}
+a{
+    width: 5%;
+    height: inherit;
+    text-decoration: none;
+    color: rgb(23, 223, 223);
+    position: relative;
+    right: 65%;
+    font-size: 15px;
+    transition: 200ms;
+  
+}
+p.s{
+   margin-top: 20px;
+   margin-right: 5%;
+   display: inline-block;
+   font-size: 20px;
+}
+div.sqf{
+    width: 99%;
+    height: 50vh;
+    background-color: rgba(165, 42, 42, 0.612);
+    display: inline-block;
+    margin-right: 0.3%;
+    margin-top: 2%;
+    border-radius: 3px;
+}
+div.sqf>div.sqft{
+    width: 20%;
+    height: 60%;
+    margin-right: 46px;
+    margin-top: 4%;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid rgb(58, 55, 55);
+}
+div.sqf>div.sqft>img{
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+}
+a.fo{
+    width: 9%;
+    height: inherit;
+    text-decoration: none;
+    color: rgb(29, 38, 38);
+    position: relative;
+    right: 85%;
+    display: inline-block;
+    font-size: 12px;
+    font-style: italic;
+    transition: 400ms;
+    border: 2px solid gray;
+    padding: 12px ;
+    border-radius: 4px;
+    
+}
+hr.foot{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+pre.foot{
+    font-size: 13px;
+    margin-right: 4%;
+    margin-top: 0.75%;
+}
+div.fioot{
+    margin-top: 2%;
+    display: inline-block;
+}
+div.fioot>figure{
+    display: inline-block;
+    margin-right: 120px;
+    text-align: center;
+}
+div.fioot>img{
+    margin-right:250px ;
+    
+}
+div.fioot>figure>figcaption{
+    font-size: 12px;
+    
+}
+div.fioot2{
+    width: 99%;
+    height: 70vh;
+    background-color: blue;
+  
+}
+div.fioot2>div.textf{
+    width: 290px;
+    height: fit-content;
+    background-color: aliceblue;
+    color: black;
+    display: inline-block;
+    margin: 5px;
+}
+div.fioot2>div.textf>span{
+    display: inline-block;
+}
